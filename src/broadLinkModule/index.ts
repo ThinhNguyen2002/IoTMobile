@@ -1,5 +1,7 @@
 import dgram from 'react-native-udp';
 import os from 'os-browserify';
+const Buffer = require('buffer/').Buffer;
+
 import Device from './device';
 import {Rm4mini, Rm4pro, Rmmini, Rmminib, Rmpro} from './remote';
 import {S1C} from './alarm';

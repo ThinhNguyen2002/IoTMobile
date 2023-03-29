@@ -1,5 +1,6 @@
 import dgram, {RemoteInfo, Socket} from 'react-native-udp';
 import crypto from 'crypto-browserify';
+const Buffer = require('buffer/').Buffer;
 
 export default class Device {
   protected TYPE: string;
